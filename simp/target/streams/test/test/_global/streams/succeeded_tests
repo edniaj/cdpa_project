@@ -1,3 +1,4 @@
 #Successful Tests
-#Thu Nov 06 02:07:30 SGT 2025
+#Thu Nov 06 02:12:51 SGT 2025
 sutd.compiler.simp.TestLexer=1762328664086
+sutd.compiler.simp.TestParser=1762366371084

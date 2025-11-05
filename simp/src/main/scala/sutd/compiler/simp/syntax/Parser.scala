@@ -323,16 +323,18 @@ object Parser {
         // head + p_exp_prime
         for {
             head <- p_atom
-            // rule 2 here E'   ::= Op Atom E' | eps
-            // tail : Parser[E, List[A]]
-            tail <- many(for{ // we are creating this Op Atom Parser and then repeat it with many
+
+            // rule 2 here E'   ::= Op Atom E' | eps     
+            // we use many to recurssively call E'
+            // we use attempt to backtrack. Otherwise we can't pass the last testcase
+            tail <- many(attempt(for{ 
+                // tail:Parser[E, List[A]]
                 _ <- p_spaces
                 op <- p_op
                 _ <- p_spaces
                 atom <- p_atom
-                // p_op.flatMap(op=> p_atom.map(atom => op,atom))
-                // E' just means we repeat this cycle. We will use Many for this                 
-            }yield(op, atom))
+                // desugars as p_op.flatMap(op=> p_atom.map(atom => op,atom))
+            }yield(op, atom)))
         } yield(p_atom_exp_prime(head, tail))
         
     }
