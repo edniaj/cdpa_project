@@ -181,9 +181,10 @@ return s;
             case Consumed(Ok((stmts, penv))) if done(penv) => {
                 assert(stmts == expected)
             }
-            case others => {
-                assert(false)
-            }
+            case others => { 
+                  println("others = " + others)
+                assert(false) 
+                }
         }
     }
 }

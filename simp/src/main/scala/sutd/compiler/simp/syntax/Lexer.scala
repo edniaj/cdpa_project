@@ -3,7 +3,11 @@ package sutd.compiler.simp.syntax
 import sutd.compiler.simp.syntax.SrcLoc.*
 import sutd.compiler.simp.monad.Monad.*
 import sutd.compiler.simp.syntax.Parsec.*
-
+/* @jiande - 5th nov'25 Lab 1
+    We are designing SCALA COMPILEr that converts Simp code into IR (bunch of Scala enum instructions)
+        - Prof has provided enums and functions. Use that
+    Edit Parser.scala file 
+*/
 object Lexer {
 
     case class LEnv(tokens: List[Char], ln: Int, cl: Int)
@@ -73,7 +77,20 @@ object Lexer {
     }
 
     import LToken.*
+
     def srcLoc(tok:LToken):SrcLoc = tok match {
+        /* @jd 5th Nov'25
+        Example of function call
+            - If tok is PlusSign(SrcLoc(3, 10)), then srcLoc(tok) = SrcLoc(3, 10).
+        
+        SrcLoc is defined inside SrcLoc.scala
+        object SrcLoc {
+                case class SrcLoc(line:Int, col:Int)
+            }
+        
+        I guess this fn main purpose is for error handling - "Syntax error at line 3, column 10" 
+        
+        */
         case EqSign(src) => src
         case DEqSign(src) => src
         case PlusSign(src) => src

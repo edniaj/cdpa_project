@@ -6,6 +6,13 @@ import sutd.compiler.simp.syntax.AST.*
 import sutd.compiler.simp.syntax.Parsec.*
 import org.scalactic.Bool
 
+/* @jiande - 5th nov'25 Lab 1
+    Task 1.1
+    fix
+        p_space
+        p_spaecs
+*/
+
 object Parser {
     /**
      * S ::= X = E ; | return X ; | nop | if E { \overline{S} } else { \overline{S} } | while E { \overline{S} } 
@@ -175,11 +182,23 @@ object Parser {
       * parsing / skipping whitespaces
       *
       * @return
-      */
-
-    def p_space:Parser[PEnv, LToken] = item // fixme
+    */
     
-    def p_spaces:Parser[PEnv, List[LToken]] = many(item) // fixme
+    //fixme - fixed @jd 5th Nov
+    // sat(callback_fn) -> returns Parser[E, T]
+    // sat provides guard rails and error handling. Reference notes
+    def p_space:Parser[PEnv, LToken] = sat(ltoken => ltoken match {
+        case WhiteSpace(_,_) => true
+        case _ => false
+    })   
+
+    /* fixme - fixed @jd
+    - I reference code in p_stmts for p_spaces
+            def many[E, A, T](p: Parser[E, A])(using pe:ParserEnv[E,T]): Parser[E, List[A]]
+    */
+    def p_spaces:Parser[PEnv, List[LToken]] = {
+        many(p_space)
+    }
 
     /** Lab 1 Task 1.1 end */
 
@@ -190,7 +209,135 @@ object Parser {
       *   E ::= E Op E | X | C | (E) contains left recursion
       * @return
       */
-    def p_exp:Parser[PEnv, Exp] = empty(ConstExp(IntConst(1))) // fixme
+
+    /*  fixme - fixed @jd 5th Nov
+    
+    Task 1.2
+        1. apply the left-recursion elimination to generate a left-recursion-free equivalent grammar for the expression.
+        
+        Solution: We need to change the grammar bro
+        Generic Fix formula:
+        N :: = Nx|y where y terminates
+        N ::= yN'
+        N'::= xN' | eps
+        After applying this formula
+            Atom ::= X | C | (E)
+            E    ::= Atom E'
+            E'   ::= Op Atom E' | ε
+            Op   ::= + | - | * | < | ==
+
+        2. define the needed parser and sub parsers that parse the input using the left-recursion-free grammar.
+            
+            Solution:
+                We will come up with a few sub parsers and use it inside a for-comprehension
+
+        3. convert the resulted expression AST in the left-recursion-free grammar back to the AST in the left-recursion grammar.
+            Reference notes on that LE term thingy
+     */
+    
+    def p_exp:Parser[PEnv, Exp] = {
+    
+        /*
+        New grammar for LE
+            Atom ::= X | C | (E)
+            E    ::= Atom E'
+            E'   ::= Op Atom E' | eps
+            Op   ::= + | - | * | < | ==
+        */
+        
+        
+        def p_paren: Parser[PEnv, Exp] = for {
+            /*                
+            This is for this specific case : (E) → ParenExp(E)
+            for-comprehension explained:
+                def map[B](f: A => B): Parser[E, B]
+                we use for comprehension here
+            */
+            _ <- p_lparen
+            _ <- p_spaces // @jd - when I referenced prof code, he seems to do this to remove any potential spaces. Look at above stmts
+            e <- p_exp
+            _ <- p_spaces
+            _ <- p_rparen
+            // @jd - Look into AST.scala - it has all the Enums definition. We definitely need to return the Enum
+            // @jd - we only wanted to extract the e to form ParenExp
+            // @jd the other _ <- statements uses .bind that acts as guardrails. Reference notes.
+        } yield (ParenExp(e))
+
+        
+        def p_atom: Parser[PEnv, Exp] = {
+            // Atom ::= X | C | (E)
+
+            // p_var -> [PEnv, Var]            
+            val p_v = for {
+                v <- p_var
+            } yield( VarExp(v))
+
+            // p_const -> [Penv, Const]
+            val p_c = for {
+                c <- p_const
+            } yield( ConstExp(c))
+            choice(p_paren)(choice(p_v)(p_c))
+        }
+
+        
+        def p_op: Parser[PEnv, LToken] ={
+            // Follow this sequence from the .md file here 
+            choice(p_plus) // Op ::= + | - | * | < | ==
+                (choice(p_minus)
+                    (choice(p_mult)
+                        (choice(p_lthan)(p_dequal))
+                    )
+                )
+        }
+
+        
+        // E    = Atom E'
+        // E'   = op E' | eps
+        def p_atom_exp_prime(head: Exp, rest:List[(LToken, Exp)]): Exp = {
+            /*  
+                rule2 : E'   ::= Op Atom E' | eps
+                Left-associative: (((head op1 e1) op2 e2) op3 e3) ...     
+                We need to break the main argument Exp into a List of tokens first
+                    - and then we can run this function
+                        - this function will return a final Exp which we will use inside the yield of a for-comprehension to return the Parser
+            */
+            
+            rest.foldLeft(head) { (acc: Exp, pair: (LToken, Exp)) =>
+                // head is the seed / accumulator. We will slowly extend it.
+                val (tok, e) = pair
+                tok match {
+                    // Converting Lexer tokens into AST enums
+                     // Sequence of Op ::= + | - | * | < | ==
+                    case PlusSign(_)    => Plus(acc, e) // we dont care about srcLoc inside PlusSign(srcLoc)
+                    case MinusSign(_)   => Minus(acc, e)
+                    case AsterixSign(_) => Mult(acc, e)
+                    case LThanSign(_)   => LThan(acc, e)
+                    case DEqSign(_)     => DEqual(acc, e)
+                    case _              => acc
+                }
+            }
+
+        }
+
+        // Combining rule 1 and 2 to get the Exp and then returning the parser
+        // head + p_exp_prime
+        for {
+            head <- p_atom
+            // rule 2 here E'   ::= Op Atom E' | eps
+            // tail : Parser[E, List[A]]
+            tail <- many(for{ // we are creating this Op Atom Parser and then repeat it with many
+                _ <- p_spaces
+                op <- p_op
+                _ <- p_spaces
+                atom <- p_atom
+                // p_op.flatMap(op=> p_atom.map(atom => op,atom))
+                // E' just means we repeat this cycle. We will use Many for this                 
+            }yield(op, atom))
+        } yield(p_atom_exp_prime(head, tail))
+        
+    }
+
+    //empty(ConstExp(IntConst(1))) 
     /** Lab 1 Task 1.2 end */
     
     /**

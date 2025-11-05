@@ -176,7 +176,21 @@ object Parsec {
                     Consumed(Ok((c, pe.setCol(col + 1)(pe.setTokens(cs)(env)))))
             }
         })
+    
+    /* @jd 5th Nov
+    Parser[E, A](p: run = E => Progress[Result[(A, E)]])
+    
+    Roughly:
+        E = environment / state (for lexer: LEnv; for parser: PEnv)
+        A = the thing you parse (e.g. Char, LToken, Stmt, Exp, …)
 
+    run(env):
+        consumes some tokens from env
+        either:
+            1. succeeds with value A and new env
+            2. fails with an error message
+        and also tracks whether it consumed input (Empty vs Consumed)
+    */
     def sat[E, T](p: T => Boolean, err:String="")(using pe: ParserEnv[E, T]): Parser[E, T] = Parser(
       (env: E) => {
           val toks = pe.getTokens(env)
