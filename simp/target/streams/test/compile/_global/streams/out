@@ -1,6 +1,2 @@
 [0m[[0m[33mwarn[0m] [0m[0mOption -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: C:\Users\jiand\Desktop\school\cdpa_project\simp\src\test\scala\sutd\compiler\simp\TestParser.scala:186:16 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m186 |[0m                assert([31mfalse[0m) [0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                ^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m             Line is indented too far to the left, or a `}` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

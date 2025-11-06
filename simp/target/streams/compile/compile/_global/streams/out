@@ -1,6 +1,2 @@
 [0m[[0m[33mwarn[0m] [0m[0mOption -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: C:\Users\jiand\Desktop\school\cdpa_project\simp\src\main\scala\sutd\compiler\simp\syntax\Parsec.scala:82:26 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m82 |[0m    [33mgiven[0m [36mparsecMonadError[0m[[35mE[0m]: [35mMonadError[0m[[35mParserM[0m[[35mE[0m], [35mError[0m] =[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                          ^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m   This old given syntax is no longer supported; use `=>` instead of `:`[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -79,6 +79,47 @@ class TestMMUpDown extends funsuite.AnyFunSuite {
         }
     }
 
+    // test("test maximal munch v2: while loop with sum") {
+    //     /* x = 0
+    //        y = 10
+    //        i = 0
+    //        while (i < y) {
+    //           x = x + i
+    //           i = i + 1
+    //        }
+    //        return x
+    //     */
+    //     val stmt1 = Assign(Var("x"), ConstExp(IntConst(0)))
+    //     val stmt2 = Assign(Var("y"), ConstExp(IntConst(10)))
+    //     val stmt3 = Assign(Var("i"), ConstExp(IntConst(0)))
+    //     val stmt4 = While(LThan(VarExp(Var("i")), VarExp(Var("y"))), List(
+    //         Assign(Var("x"), Plus(VarExp(Var("x")), VarExp(Var("i")))),
+    //         Assign(Var("i"), Plus(VarExp(Var("i")), ConstExp(IntConst(1))))
+    //     ))
+    //     val stmt5 = Ret(Var("x"))
+
+    //     val expected = List(
+    //         (1,IMove(Temp(AVar("x")),IntLit(0))), 
+    //         (2,IMove(Temp(AVar("y")),IntLit(10))), 
+    //         (3,IMove(Temp(AVar("i")),IntLit(0))), 
+    //         (4,ILThan(Temp(AVar("var_1")),Temp(AVar("i")),Temp(AVar("y")))), 
+    //         (5,IIfNot(Temp(AVar("var_1")),11)), 
+    //         (6,IPlus(Temp(AVar("var_2")),Temp(AVar("x")),Temp(AVar("i")))), 
+    //         (7,IMove(Temp(AVar("x")),Temp(AVar("var_2")))), 
+    //         (8,IPlus(Temp(AVar("var_3")),Temp(AVar("i")),IntLit(1))), 
+    //         (9,IMove(Temp(AVar("i")),Temp(AVar("var_3")))), 
+    //         (10,IGoto(4)), 
+    //         (11,IMove(Regstr("_r_ret"),Temp(AVar("x")))), 
+    //         (12,IRet))
+
+        
+    //     cogen(List(stmt1, stmt2, stmt3, stmt4, stmt5)).run(StateInfo(1,"var",1)) match {
+    //         case Identity((st_, instrs)) => {
+    //             // println(instrs)
+    //             assert(expected == instrs)
+    //         }
+    //     }
+    // }
 
     test("test maximal munch v2:" + """
     x = 0

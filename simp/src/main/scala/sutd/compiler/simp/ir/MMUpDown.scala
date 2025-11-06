@@ -9,13 +9,22 @@ import sutd.compiler.simp.syntax.AST.*
 import sutd.compiler.simp.ir.PseudoAssembly.*
 import sutd.compiler.simp.ir.Util.*
 
+/* @jd 6th Nov 2025
+    
+    We are converting SIMP AST (Exp, Stmt) into PseudoAssembly (Instr, Opr).
+        genExp(E) : ( ê:Opr , ě: List[(Label,Instr)] ) where ê is operand and  ě is list of instr to compute the operand
+    
+    Reference PseudoAssembly.scala for 
+        1. enum Instr
+        2. enum Opr
+*/
 
 object MMUpDown {
     import Stmt.*
     import Var.*
     import Exp.*
     import Const.*
-    import AVar.*
+    import AVar.* 
     import Instr.*
     import Opr.*
     
@@ -23,6 +32,7 @@ object MMUpDown {
     type UpE = Opr
     type DownE = List[Instr]
     
+    // genExp(E) returns ( ê:Opr , ě: List[(Label,Instr)] ) where ê is operand and  ě is list of instr to compute the operand
     def genExp(e:Exp)(using me:StateCogenMonad[StateInfo]):CogenState[(Opr, List[(Label,Instr)])] = e match {
         // GE(c) |- (c, [])      (Const)
         case ConstExp(IntConst(v)) => me.pure((IntLit(v), Nil))
@@ -40,6 +50,7 @@ object MMUpDown {
          GE((e)) |- (up_e, down_e)
         */ 
         case ParenExp(e) => genExp(e)
+
         // Lab 1 Task 2.1 
         /*
          GE(e1) |- (up_e1, down_e1)
@@ -48,11 +59,90 @@ object MMUpDown {
          L is a fresh label
         --------------------------------------------------------------------- (Op)
          GE(e1 op e2) |- (X, down_e1 ++ down_e2 ++ [L:X <- up_e1 op up_e2])
-         */ 
-        case _ =>  me.pure((IntLit(1), Nil)) // fixme
+         
+        We need to implement this thingy above into our case
+        */ 
+        
+        // fixme - fixed @Jd 6th Nov'25
+        // plus minus mult dequal lthan
+        case Plus(e1,e2) => for { 
+            // u means e up ê, d means e down ě
+            (u1, d1) <- genExp(e1) // CogenState[(Opr, List[(Label,Instr)])]
+            (u2,d2) <- genExp(e2) // CogenState[(Opr, List[(Label,Instr)])]
+            tmp <- newTemp // CogenState[Opr]
+            lbl <- newLabel // CogenState[Label]
+            /* this desugars to 
+                genExp(e1).flatMap { case (u1, d1) =>
+                    genExp(e2).flatMap { case (u2, d2) =>
+                        newTemp.flatMap { tmp =>
+                            newLabel.map { lbl =>
+                                val dest  = Temp(tmp)
+                                val instr = IPlus(dest, u1, u2)
+                                (dest, d1 ++ d2 ++ List((lbl, instr)))
+                            }
+                        }
+                    }
+                }                        
+            */
+            } yield({ // this will return a CogenState(dest, ě1 ++ ě2 ++ List[(lbl, instr)])
+                val dest = tmp
+                val instr = IPlus(dest, u1, u2)
+                (dest, d1 ++ d2 ++ List((lbl, instr)))
+            })
+
+        case Minus(e1,e2) => for { 
+            // u means e up ê, d means e down ě
+            (u1, d1) <- genExp(e1) // CogenState[(Opr, List[(Label,Instr)])]
+            (u2,d2) <- genExp(e2) // CogenState[(Opr, List[(Label,Instr)])]
+            tmp <- newTemp // CogenState[Opr]
+            lbl <- newLabel // CogenState[Label]
+
+            } yield({ // this will return a CogenState(dest, ě1 ++ ě2 ++ List[(lbl, instr)])
+                val dest = tmp
+                val instr = IMinus(dest, u1, u2)
+                (dest, d1 ++ d2 ++ List((lbl, instr)))
+            })
+
+        case Mult(e1,e2) => for { 
+            // u means e up ê, d means e down ě
+            (u1, d1) <- genExp(e1) // CogenState[(Opr, List[(Label,Instr)])]
+            (u2,d2) <- genExp(e2) // CogenState[(Opr, List[(Label,Instr)])]
+            tmp <- newTemp // CogenState[Opr]
+            lbl <- newLabel // CogenState[Label]
+
+            } yield({ // this will return a CogenState(dest, ě1 ++ ě2 ++ List[(lbl, instr)])
+                val dest = tmp
+                val instr = IMult(dest, u1, u2)
+                (dest, d1 ++ d2 ++ List((lbl, instr)))
+            })
+
+        case DEqual(e1,e2) => for { 
+            // u means e up ê, d means e down ě
+            (u1, d1) <- genExp(e1) // CogenState[(Opr, List[(Label,Instr)])]
+            (u2,d2) <- genExp(e2) // CogenState[(Opr, List[(Label,Instr)])]
+            tmp <- newTemp // CogenState[Opr]
+            lbl <- newLabel // CogenState[Label]
+
+            } yield({ // this will return a CogenState(dest, ě1 ++ ě2 ++ List[(lbl, instr)])
+                val dest = tmp
+                val instr = IDEqual(dest, u1, u2)
+                (dest, d1 ++ d2 ++ List((lbl, instr)))
+            })
+        case LThan(e1,e2) => for { 
+            // u means e up ê, d means e down ě
+            (u1, d1) <- genExp(e1) // CogenState[(Opr, List[(Label,Instr)])]
+            (u2,d2) <- genExp(e2) // CogenState[(Opr, List[(Label,Instr)])]
+            tmp <- newTemp // CogenState[Opr]
+            lbl <- newLabel // CogenState[Label]
+            } yield({ // this will return a CogenState(dest, ě1 ++ ě2 ++ List[(lbl, instr)])
+                val dest = tmp
+                val instr = ILThan(dest, u1, u2)
+                (dest, d1 ++ d2 ++ List((lbl, instr)))
+            })
         // Lab 1 Task 2.1 end
     }
 
+    // convert statement into List of Instructions
     def cogen(s:Stmt):CogenState[List[(Label,Instr)]] = s match {
         case Nop => StateT{ st => Identity((st, List())) } 
         /*
@@ -66,7 +156,7 @@ object MMUpDown {
             lbl    <- newLabel
         } yield { 
             val av = var2AVar(v)
-            val i = IMove(Temp(av), u)
+            val i = IMove(Temp(av), u) // @jd - Instruction enum
             (d ++ List((lbl,i)))
         }
         /*
@@ -122,21 +212,52 @@ object MMUpDown {
         } yield cond_d ++ instrs1 ++ instrs2a ++ instrs3a
         // Lab 1 Task 2.2 
         /*
-        LBWhile is the next label (w/o incr) 
+        1. LBWhile is the next label (w/o incr) 
         GE(cond) |- (up_cond, down_cond)
 
-        LWhileCondJ is a fresh label
+        2. LWhileCondJ is a fresh label
         G(body) |- instrs2 
         LEndBody is a fresh label
         
-        LEndWhile is the next label (w/o incr)
+        3. LEndWhile is the next label (w/o incr)
 
         instrs1 = [LWhileCondJ: ifn up_cond goto LEndWhile] 
         instrs2' = instrs2 ++ [ LEndBody: goto LBWhile ]
         --------------------------------------------------------- (While)
         G(while cond {body}) |- down_cond ++ instrs1 ++ instrs2'
+
+        @jd 6th Nov'25 - You can reference MaximalMunch.scala and see how they handle case While(cond,body). 
+            - its very similar except we don't use temp. v2 is more efficient - reference Wk6 notes
         */
-        case _ => StateT{ st => Identity((st, List())) }  // fixme
+
+        // fixme - fixed @jd 6th Nov'25
+        case While(cond, body) => for {
+            // 1. LBWhile is the next label (w/o incr) 
+            // GE(cond) |- (up_cond, down_cond)
+            lblBWhile <- chkNextLabel
+
+            // GE(cond) ⊢ (up_cond, down_cond)
+            (uCond, dCond) <- genExp(cond)
+                        
+            // 2. LWhileCondJ is a fresh label
+            lblWhileCondJ <- newLabel
+            // G(body) |- instrs2
+            instrsBody <- cogen(body) // this is a statemenet
+            // LEndBody is a fresh label
+            lblEndBody <- newLabel
+
+            // 3. LEndWhile is the next label (w/o incr)    
+            lblEndWhile <- chkNextLabel
+
+        } yield({
+            // instrs1 = [LWhileCondJ: ifn up_cond goto LEndWhile] 
+            val instrs1 = List((lblWhileCondJ, IIfNot(uCond, lblEndWhile)))
+            // instrs2' = instrs2 ++ [ LEndBody: goto LBWhile ]
+            val instrs2p = instrsBody ++ List((lblEndBody, IGoto(lblBWhile)))
+            dCond ++ instrs1 ++ instrs2p
+
+            // @jd 6th Nov'25 - sidenote, you can put instrs1 and instrs2p inside the last flatMap. But I prefer to throw everyth inside the .map
+        })
         // Lab 1 Task 2.2 end
     }
 
