@@ -49,9 +49,16 @@ object SimpInt {
         c2 <- evalExp(dlt, e2)
         c3 <- plusConst(c1,c2)
       } yield c3
+
       // Lab 2 Task 1.1
-      case _ => Left("TODO") // fixme
+      // from syntax/AST.scala
+      case VarExp(v) => dlt.get(v) match {
+        case None    => Left(s"variable undefined")
+        case Some(c) => Right(c)
+      }
+      case ParenExp(e1) => evalExp(dlt, e1)
       // Lab 2 Task 1.1 end
+      // sbt compile "testOnly sutd.compiler.simp.TestSimpInt -- -z evalExp" 
     }
 
     import Stmt.* 
@@ -72,7 +79,11 @@ object SimpInt {
       def eval(dlt:Delta, ss:List[A]):Either[ErrMsg, Delta] = ss match {
         case Nil => Right(dlt) 
         // Lab 2 Task 1.2 
-        case _ => Left("TODO") // fixme
+        case s :: rest =>
+          i.eval(dlt,s) match {
+            case Left(err) => Left(err)
+            case Right(dlt1) => eval(dlt1, rest)
+          }
         // Lab 2 Task 1.2 end
       }
     }
@@ -93,9 +104,23 @@ object SimpInt {
         } yield dlt_2
         case Ret(x) => Right(dlt)
         // Lab 2 Task 1.2 
-        case _ => Left("TODO") // fixme
+        // syntax/AST.scala, implement While
+        case While(cond, b) =>
+          def loop(d: Delta): Either[ErrMsg, Delta] =
+            evalExp(d, cond) match {
+              case Left(err) => Left(err)
+              case Right(IntConst(_)) => Left("int expression found in the while condition position")
+              case Right(BoolConst(true)) =>
+                evalMany.eval(d,b) match {
+                  case Left(err) => Left(err)
+                  case Right(d1) => loop(d1)
+                }
+              case Right(BoolConst(false)) => Right(d)
+            }
+          loop(dlt)
         // Lab 2 Task 1.2 end
       }
+      //sbt "testOnly sutd.compiler.simp.TestSimpInt"
 
     }
 

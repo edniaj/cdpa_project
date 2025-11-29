@@ -1,0 +1,890 @@
+2025.11.27 17:32:36 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\Hayul\Desktop\50.054\cdpa_project' for client Visual Studio Code 1.106.2.
+2025.11.27 17:32:36 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.27 17:32:36 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\MaximalMunch.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:38 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\MaximalMunch.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:39 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\MaximalMunch.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:39 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\DF.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:39 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\DF.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:41 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\DF.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:41 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:41 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:43 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:43 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:43 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:44 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:44 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:46 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\DF.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:46 WARN  no build target for: C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala
+2025.11.27 17:32:46 WARN  no build target for: C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\MaximalMunch.scala
+2025.11.27 17:32:46 WARN  no build target for: C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\DF.scala
+2025.11.27 17:32:46 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:46 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\MaximalMunch.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:46 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:32:46 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:40:34 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\ir\CFG.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.27 17:44:34 INFO  Shutting down server
+2025.11.27 17:44:34 INFO  shutting down Metals
+2025.11.27 17:44:34 INFO  Exiting server
+2025.11.29 12:41:28 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\Hayul\Desktop\50.054\cdpa_project' for client Visual Studio Code 1.106.3.
+2025.11.29 12:41:28 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.29 12:41:28 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\PAInt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 12:41:30 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\PAInt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 12:41:35 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\PAInt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 12:41:35 INFO  running 'C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Hayul\AppData\Local\Temp\metals1689043434724434567\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.11.29 12:41:36 INFO  [info] welcome to sbt 1.11.6 (Eclipse Adoptium Java 21.0.8)
+2025.11.29 12:41:38 INFO  [info] loading settings for project simp-build-build-build from metals.sbt...
+2025.11.29 12:41:38 INFO  [info] loading project definition from C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\project\project\project
+2025.11.29 12:41:41 INFO  [info] loading settings for project simp-build-build from metals.sbt...
+2025.11.29 12:41:41 INFO  [info] loading project definition from C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\project\project
+2025.11.29 12:41:42 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\PAInt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 12:41:43 INFO  [success] Generated .bloop\simp-build-build.json
+2025.11.29 12:41:43 INFO  [success] Total time: 2 s, completed Nov 29, 2025, 12:41:43 PM
+2025.11.29 12:41:43 INFO  [info] loading settings for project simp-build from metals.sbt, plugins.sbt...
+2025.11.29 12:41:43 INFO  [info] loading project definition from C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\project
+2025.11.29 12:41:46 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\PAInt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 12:41:47 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\PAInt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 12:41:47 INFO  [success] Generated .bloop\simp-build.json
+2025.11.29 12:41:47 INFO  [success] Total time: 3 s, completed Nov 29, 2025, 12:41:47 PM
+2025.11.29 12:41:49 INFO  [info] loading settings for project simp from build.sbt...
+2025.11.29 12:41:49 INFO  [info] set current project to simp (in build file:/C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/)
+2025.11.29 12:41:49 INFO  [success] Generated .bloop\simp.json
+2025.11.29 12:41:49 INFO  [success] Generated .bloop\simp-test.json
+2025.11.29 12:41:49 INFO  [success] Total time: 1 s, completed Nov 29, 2025, 12:41:50 PM
+2025.11.29 12:41:50 INFO  time: ran 'sbt bloopInstall' in 14s
+2025.11.29 12:41:50 INFO  Attempting to connect to the build server...
+2025.11.29 12:41:50 INFO  No running Bloop server found, starting one.
+2025.11.29 12:41:52 INFO  Starting compilation server
+2025.11.29 12:41:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\bsp.trace.json or C:\Users\Hayul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.11.29 12:41:53 INFO  time: Connected to build server in 3.66s
+2025.11.29 12:41:53 INFO  Connected to Build server: Bloop v2.0.17
+2025.11.29 12:41:53 INFO  time: Imported build in 0.24s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 12:41:59 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.29 12:42:01 INFO  time: indexed workspace in 7.7s
+2025.11.29 12:42:02 INFO  compiling simp (29 scala sources)
+2025.11.29 12:42:02 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 12:42:11 INFO  compiling simp-test (12 scala sources)
+2025.11.29 12:42:11 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 12:42:11 INFO  time: compiled simp in 10s
+2025.11.29 12:42:15 INFO  time: compiled simp-test in 3.38s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 12:51:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:06:25 INFO  compiling simp (1 scala source)
+2025.11.29 13:06:25 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:06:27 INFO  time: compiled simp in 1.69s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:09:58 INFO  compiling simp (1 scala source)
+2025.11.29 13:09:58 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:10:00 INFO  time: compiled simp in 1.72s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:10:59 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.11.29 13:10:59 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.11.29 13:10:59 WARN  no build target for: C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\build.sbt
+2025.11.29 13:10:59 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.11.29 13:10:59 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.11.29 13:11:00 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.11.29 13:12:09 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.11.29 13:13:23 INFO  compiling simp (1 scala source)
+2025.11.29 13:13:23 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:13:23 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\SimpInt.scala
+2025.11.29 13:13:23 INFO  time: compiled simp in 0.8s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 1:13:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1222
+2025.11.29 13:14:19 INFO  compiling simp (1 scala source)
+2025.11.29 13:14:19 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:14:19 INFO  time: compiled simp in 0.64s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:14:39 INFO  compiling simp (1 scala source)
+2025.11.29 13:14:39 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:14:39 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\SimpInt.scala
+2025.11.29 13:14:39 INFO  time: compiled simp in 0.54s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:18:35 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:18:35 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-18-35-964.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Exception in thread "pool-9-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Nov 29, 2025 1:25:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2335
+2025.11.29 13:26:30 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:26:30 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-26-30-699.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:26:31 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:26:31 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-26-31-707.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:26:47 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:26:47 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-26-47-481.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 1:26:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2548
+Nov 29, 2025 1:27:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2738
+Nov 29, 2025 1:27:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3020
+Nov 29, 2025 1:27:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3055
+Nov 29, 2025 1:27:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3132
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:27:32 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:27:32 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-27-32-221.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 1:27:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3330
+Nov 29, 2025 1:27:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3407
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:27:59 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:27:59 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-27-59-420.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:27:59 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:27:59 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-27-59-712.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:27:59 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:27:59 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-28-00-280.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:28:00 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:28:00 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-28-00-596.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:28:00 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:28:00 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-28-00-834.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:28:00 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/interpreter/SimpInt.scala]
+2025.11.29 13:28:00 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-28-01-092.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 1:28:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3546
+Nov 29, 2025 1:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3694
+Nov 29, 2025 1:28:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3874
+Nov 29, 2025 1:28:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3879
+Nov 29, 2025 1:29:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4087
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:30:09 INFO  compiling simp (1 scala source)
+2025.11.29 13:30:09 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:30:10 INFO  time: compiled simp in 1.67s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:31:28 INFO  compiling simp (1 scala source)
+2025.11.29 13:31:28 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:31:28 INFO  time: compiled simp in 0.74s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:32:07 INFO  compiling simp (1 scala source)
+2025.11.29 13:32:07 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:32:07 INFO  time: compiled simp in 0.63s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:33:13 INFO  compiling simp (1 scala source)
+2025.11.29 13:33:13 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:33:13 INFO  time: compiled simp in 0.85s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 1:33:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4592
+Nov 29, 2025 1:33:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4629
+2025.11.29 13:33:59 INFO  compiling simp (1 scala source)
+2025.11.29 13:33:59 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:33:59 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\SimpInt.scala
+2025.11.29 13:33:59 INFO  time: compiled simp in 0.61s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 1:34:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4842
+2025.11.29 13:34:41 INFO  compiling simp (1 scala source)
+2025.11.29 13:34:41 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:34:41 INFO  time: compiled simp in 0.54s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:37:14 INFO  compiling simp (1 scala source)
+2025.11.29 13:37:14 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:37:14 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\SimpInt.scala
+2025.11.29 13:37:14 INFO  time: compiled simp in 0.46s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:37:31 INFO  compiling simp (1 scala source)
+2025.11.29 13:37:31 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:37:31 INFO  time: compiled simp in 0.43s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:38:09 INFO  compiling simp (1 scala source)
+2025.11.29 13:38:09 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:38:09 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\interpreter\SimpInt.scala
+2025.11.29 13:38:09 INFO  time: compiled simp in 0.43s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:41:29 INFO  compiling simp (1 scala source)
+2025.11.29 13:41:29 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:41:29 INFO  time: compiled simp in 0.43s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:50:09 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 13:50:09 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-50-09-640.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:50:10 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 13:50:10 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-50-10-841.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:50:58 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 13:50:58 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_13-50-58-710.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:51:45 INFO  compiling simp (1 scala source)
+2025.11.29 13:51:45 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:51:45 INFO  time: compiled simp in 0.36s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6955
+2025.11.29 13:52:08 INFO  compiling simp (1 scala source)
+2025.11.29 13:52:08 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:52:08 INFO  time: compiled simp in 0.27s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:53:15 INFO  compiling simp (1 scala source)
+2025.11.29 13:53:15 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:53:15 INFO  time: compiled simp in 0.55s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:58:19 INFO  compiling simp (1 scala source)
+2025.11.29 13:58:19 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:58:19 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:19 INFO  time: compiled simp in 0.42s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:58:20 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:31 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 13:58:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 13:58:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 13:58:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 13:58:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:32 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 13:58:32 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:32 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:35 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:42 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:43 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:58:43 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:44 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:44 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:46 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:46 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Nov 29, 2025 1:58:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7489
+2025.11.29 13:58:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:48 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:49 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:50 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:50 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:52 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:53 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:58:54 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:55 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:57 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:59 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:59 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:58:59 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:59:06 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:59:09 INFO  compiling simp (1 scala source)
+2025.11.29 13:59:09 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:59:09 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:59:09 INFO  time: compiled simp in 0.48s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:59:20 INFO  compiling simp (1 scala source)
+2025.11.29 13:59:20 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:59:20 INFO  time: compiled simp in 0.5s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:59:55 INFO  compiling simp (1 scala source)
+2025.11.29 13:59:55 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 13:59:55 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 13:59:55 INFO  time: compiled simp in 0.45s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:00:25 INFO  compiling simp (1 scala source)
+2025.11.29 14:00:25 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:00:25 INFO  time: compiled simp in 0.4s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:00:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7833
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:04:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8464
+2025.11.29 14:04:47 INFO  compiling simp (1 scala source)
+2025.11.29 14:04:47 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:04:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:04:47 INFO  time: compiled simp in 0.23s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:04:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:04 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:05:05 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:06 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:07 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:08 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:09 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:10 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:11 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Nov 29, 2025 2:05:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8719
+2025.11.29 14:05:11 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:17 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:18 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:18 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:22 INFO  compiling simp (1 scala source)
+2025.11.29 14:05:22 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:05:22 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:22 INFO  time: compiled simp in 0.42s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:05:23 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:26 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:27 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:32 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:33 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:35 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:39 INFO  compiling simp (1 scala source)
+2025.11.29 14:05:39 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:05:39 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:05:39 INFO  time: compiled simp in 0.4s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:07:35 INFO  compiling simp (1 scala source)
+2025.11.29 14:07:35 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:07:35 INFO  time: compiled simp in 0.43s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:07:49 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:07:49 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-07-49-670.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:08:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9382
+2025.11.29 14:08:28 INFO  compiling simp (1 scala source)
+2025.11.29 14:08:28 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:08:28 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:08:28 INFO  time: compiled simp in 0.39s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:08:40 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:08:41 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:08:41 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:08:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 14:08:48 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:03 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:04 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:06 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:07 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:08 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:09 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:10 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:10 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:12 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:15 INFO  compiling simp (1 scala source)
+2025.11.29 14:09:15 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:09:15 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:15 INFO  time: compiled simp in 0.42s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:09:16 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:09:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:10:33 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:10:49 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:11:03 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:11:03 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:11:07 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:11:11 INFO  compiling simp (1 scala source)
+2025.11.29 14:11:11 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:11:11 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:11:11 INFO  time: compiled simp in 0.43s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:11:53 INFO  compiling simp (1 scala source)
+2025.11.29 14:11:53 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:11:53 INFO  time: compiled simp in 0.5s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:12:36 INFO  compiling simp (1 scala source)
+2025.11.29 14:12:36 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:12:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:12:36 INFO  time: compiled simp in 0.45s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:16:21 INFO  compiling simp (1 scala source)
+2025.11.29 14:16:21 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:16:21 INFO  time: compiled simp in 0.44s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:19:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10834
+Nov 29, 2025 2:19:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10994
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:20:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11530
+Nov 29, 2025 2:20:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11641
+Nov 29, 2025 2:20:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11668
+Nov 29, 2025 2:21:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11775
+Nov 29, 2025 2:22:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11818
+Nov 29, 2025 2:22:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11851
+2025.11.29 14:22:48 INFO  compiling simp (1 scala source)
+2025.11.29 14:22:48 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:22:49 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:22:48 INFO  time: compiled simp in 0.41s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:22:49 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:22:55 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:22:56 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:22:58 INFO  compiling simp (1 scala source)
+2025.11.29 14:22:58 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:22:58 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:22:58 INFO  time: compiled simp in 0.4s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:24:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12086
+Exception in thread "pool-9-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Nov 29, 2025 2:26:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12188
+2025.11.29 14:26:19 INFO  compiling simp (1 scala source)
+2025.11.29 14:26:19 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:26:19 INFO  time: compiled simp in 0.44s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:26:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12298
+Nov 29, 2025 2:26:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12315
+2025.11.29 14:27:06 INFO  compiling simp (1 scala source)
+2025.11.29 14:27:06 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:27:06 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:27:06 INFO  time: compiled simp in 0.43s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:30:28 INFO  compiling simp (1 scala source)
+2025.11.29 14:30:28 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:30:28 INFO  time: compiled simp in 0.43s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:38:53 INFO  compiling simp (1 scala source)
+2025.11.29 14:38:53 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:38:53 INFO  time: compiled simp in 0.43s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:43:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13068
+2025.11.29 14:44:24 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:44:24 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-44-24-823.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:44:26 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:44:26 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-44-26-025.md")
+Nov 29, 2025 2:44:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13135
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:44:26 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:44:26 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-44-26-393.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:44:26 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:44:26 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-44-26-552.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:44:27 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:44:27 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-44-27-192.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:44:27 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:44:27 INFO  java.lang.IndexOutOfBoundsException: 2 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-44-28-100.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:44:28 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:44:28 INFO  java.lang.IndexOutOfBoundsException: 2 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-44-28-377.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:45:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13235
+Nov 29, 2025 2:45:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13238
+Nov 29, 2025 2:45:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13352
+2025.11.29 14:46:04 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:46:04 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-46-04-454.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:46:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13763
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:46:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13882
+Nov 29, 2025 2:46:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14058
+Exception in thread "pool-9-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:48:04 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:48:04 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-48-04-612.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:48:06 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:48:06 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-48-06-212.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:48:07 INFO  Created report: Optional[file:///C:/Users/Hayul/Desktop/50.054/cdpa_project/simp/src/main/scala/sutd/compiler/simp/semantic/TypeInf.scala]
+2025.11.29 14:48:07 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_compiler-error_(simp)_14-48-07-500.md")
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 2:54:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14758
+Exception in thread "pool-9-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-9-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.11.29 14:55:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+Nov 29, 2025 2:56:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14889
+2025.11.29 14:57:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+Exception in thread "pool-9-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Nov 29, 2025 2:57:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15226
+2025.11.29 14:58:01 INFO  compiling simp (1 scala source)
+2025.11.29 14:58:01 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:58:01 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:02 INFO  time: compiled simp in 1.01s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:58:02 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:13 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:33 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:35 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:36 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:38 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:42 INFO  compiling simp (1 scala source)
+2025.11.29 14:58:42 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:58:42 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:42 INFO  time: compiled simp in 0.75s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:58:43 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:58:58 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:59:00 INFO  compiling simp (1 scala source)
+2025.11.29 14:59:00 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:59:00 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:59:00 INFO  time: compiled simp in 0.58s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:59:01 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:59:12 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:59:57 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:59:57 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:59:59 INFO  compiling simp (1 scala source)
+2025.11.29 14:59:59 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 14:59:59 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 14:59:59 INFO  time: compiled simp in 0.73s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:00:00 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:01:21 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:01:25 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:01:27 INFO  compiling simp (1 scala source)
+2025.11.29 15:01:27 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:01:28 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:01:27 INFO  time: compiled simp in 0.72s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:01:28 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Nov 29, 2025 3:01:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15619
+2025.11.29 15:02:25 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:03:01 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:03:04 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Nov 29, 2025 3:03:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15690
+2025.11.29 15:03:39 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:03:41 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:03:41 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:03:42 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:03:44 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:03:44 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:03:44 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Nov 29, 2025 3:03:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15777
+2025.11.29 15:03:46 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:04:04 INFO  compiling simp (1 scala source)
+2025.11.29 15:04:04 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:04:04 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:04:04 INFO  time: compiled simp in 0.63s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:04:04 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:04:21 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Nov 29, 2025 3:04:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15868
+2025.11.29 15:04:32 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:04:34 INFO  compiling simp (1 scala source)
+2025.11.29 15:04:34 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:04:34 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:04:34 INFO  time: compiled simp in 0.47s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:04:34 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:04:41 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:04:42 INFO  compiling simp (1 scala source)
+2025.11.29 15:04:42 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:04:42 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:04:42 INFO  time: compiled simp in 0.47s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:04:43 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:05:04 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:05:04 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:05:06 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Nov 29, 2025 3:05:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15951
+2025.11.29 15:05:07 INFO  compiling simp (1 scala source)
+2025.11.29 15:05:07 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:05:07 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:05:07 INFO  time: compiled simp in 0.47s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:06:32 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:38 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:38 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:42 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:42 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:43 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:44 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:44 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:48 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:51 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:51 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:06:52 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:09:20 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:09:22 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+Nov 29, 2025 3:09:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16201
+2025.11.29 15:09:32 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:09:35 INFO  compiling simp (1 scala source)
+2025.11.29 15:09:35 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:09:35 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:09:35 INFO  time: compiled simp in 0.58s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:09:36 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:09:47 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:09:54 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:37 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:10:39 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:11:06 INFO  compiling simp (1 scala source)
+2025.11.29 15:11:06 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:11:06 INFO  time: compiled simp in 0.66s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:11:16 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:11:21 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:11:30 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:11:32 INFO  Shutting down server
+2025.11.29 15:11:32 INFO  shutting down Metals
+2025.11.29 15:11:32 INFO  Shut down connection with build server.
+2025.11.29 15:11:32 INFO  Exiting server
+2025.11.29 15:11:47 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\Hayul\Desktop\50.054\cdpa_project' for client Visual Studio Code 1.106.3.
+2025.11.29 15:11:47 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.29 15:11:47 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 15:11:49 INFO  no build target found for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.11.29 15:11:49 INFO  Attempting to connect to the build server...
+2025.11.29 15:11:49 INFO  Found a Bloop server running
+2025.11.29 15:11:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\bsp.trace.json or C:\Users\Hayul\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.11.29 15:11:49 INFO  time: Connected to build server in 0.27s
+2025.11.29 15:11:49 INFO  Connected to Build server: Bloop v2.0.17
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:11:52 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.29 15:11:52 INFO  time: indexed workspace in 3.35s
+2025.11.29 15:11:53 INFO  compiling simp (29 scala sources)
+2025.11.29 15:11:53 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:11:55 INFO  time: compiled simp in 1.54s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:11:55 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:11:55 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:12:19 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:12:57 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:12:58 INFO  compiling simp (29 scala sources)
+2025.11.29 15:12:58 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:12:59 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:00 INFO  time: compiled simp in 1.11s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:13:00 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:31 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:32 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:34 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:35 INFO  compiling simp (29 scala sources)
+2025.11.29 15:13:35 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:13:35 INFO  time: compiled simp in 0.66s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:13:36 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:38 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:40 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:42 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:13:42 INFO  compiling simp (29 scala sources)
+2025.11.29 15:13:42 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:13:46 INFO  time: compiled simp in 3.38s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:18:10 INFO  compiling simp (1 scala source)
+2025.11.29 15:18:10 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:18:12 INFO  time: compiled simp in 1.72s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:18:23 INFO  compiling simp (1 scala source)
+2025.11.29 15:18:23 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:18:23 INFO  time: compiled simp in 0.65s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.11.29 15:21:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 15:21:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 15:21:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 15:21:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 15:21:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+2025.11.29 15:21:52 INFO  compiling simp (1 scala source)
+2025.11.29 15:21:52 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:21:53 INFO  time: compiled simp in 1.52s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 3:22:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1313
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-6-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-6-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-6-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-6-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-6-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-6-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-6-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Nov 29, 2025 3:24:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1438
+2025.11.29 15:24:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Hayul\Desktop\50.054\cdpa_project\.metals\.reports\metals-full\2025-11-29\r_empty-definition_(simp)_13-58-31-693.md")
+Nov 29, 2025 3:24:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1521
+2025.11.29 15:24:56 INFO  compiling simp (1 scala source)
+2025.11.29 15:24:56 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:24:58 INFO  time: compiled simp in 2.08s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:26:06 INFO  compiling simp (1 scala source)
+2025.11.29 15:26:06 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:26:07 WARN  Could not load snapshot text for C:\Users\Hayul\Desktop\50.054\cdpa_project\simp\src\main\scala\sutd\compiler\simp\semantic\TypeInf.scala
+2025.11.29 15:26:08 INFO  time: compiled simp in 1.46s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Nov 29, 2025 3:26:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1719
+2025.11.29 15:28:54 INFO  compiling simp (1 scala source)
+2025.11.29 15:28:54 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:28:56 INFO  time: compiled simp in 2.08s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:46:01 INFO  compiling simp (1 scala source)
+2025.11.29 15:46:01 WARN  Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+2025.11.29 15:46:03 INFO  time: compiled simp in 1.63s
+Option -Yresolve-term-conflict is deprecated: Use -Xresolve-term-conflict instead.
+Exception in thread "pool-6-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.11.29 15:50:21 INFO  Shutting down server
+2025.11.29 15:50:21 INFO  shutting down Metals
+2025.11.29 15:50:21 INFO  Shut down connection with build server.
+2025.11.29 15:50:21 INFO  Exiting server

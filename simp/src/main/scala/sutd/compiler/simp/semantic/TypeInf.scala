@@ -83,7 +83,15 @@ object TypeInf {
     given exTypeSubstitutable:Substitutable[ExType] = new Substitutable[ExType]{
         def applySubst(tysubst:TypeSubst)(ty:ExType):ExType = tysubst match {
             // Lab 2 Task 2.1
-            case _ => ty // fixme
+            case Empty => ty
+            case RevComp((n1,t), psi) =>
+                val ty1 = applySubst(psi)(ty)
+                ty1 match {
+                    case TypeVar(n) if n == n1 =>
+                        applySubst(psi)(t) // apply to t
+                    case _ => ty1
+                }
+            //sbt compile "testOnly sutd.compiler.simp.TestTypeInf -- -z substitution" 
             // Lab 2 Task 2.1 end
         }
     }
@@ -137,7 +145,16 @@ object TypeInf {
             }
             case Ret(x) => Set()
             // Lab 2 Task 2.3
-            case _ => Set() // fixme
+            // If and While
+            case If(e, s2, s3) =>
+                val(ety, ek) = inferExp(e)
+                val k2 = infList.infer(s2).toSet 
+                val k3 = infList.infer(s3).toSet  
+                ek union k2 union k3 union Set((ety, MonoType(BoolTy)))
+            case While(e, b) =>
+                val (ety, ek) = inferExp(e) 
+                val kb = infList.infer(b).toSet
+                ek union kb union Set((ety, MonoType(BoolTy)))
             // Lab 2 Task 2.3 end
             
         }
@@ -159,9 +176,32 @@ object TypeInf {
         }
         case ParenExp(e) => inferExp(e)
         // Lab 2 Task 2.3
-        case _ => (MonoType(IntTy), Set()) // fixme
+        // type and constraint, t k 
+        case Plus(e1, e2) =>
+            val (t1, k1) = inferExp(e1) 
+            val (t2, k2) = inferExp(e2) 
+            (MonoType(IntTy), k1 union k2 + ((t1, MonoType(IntTy))) + ((t2, MonoType(IntTy))))
+        
+        case Minus(e1, e2) => 
+            val (t1, k1) = inferExp(e1) 
+            val (t2, k2) = inferExp(e2) 
+            (MonoType(IntTy), k1 union k2 + ((t1, MonoType(IntTy))) + ((t2, MonoType(IntTy))))
+        case Mult(e1, e2) => 
+            val (t1, k1) = inferExp(e1) 
+            val (t2, k2) = inferExp(e2) 
+            (MonoType(IntTy), k1 union k2 + ((t1, MonoType(IntTy))) + ((t2, MonoType(IntTy))))
+        case DEqual(e1, e2) => 
+            val (t1, k1) = inferExp(e1) 
+            val (t2, k2) = inferExp(e2) 
+            (MonoType(BoolTy), k1 union k2 + ((t1, t2)))
+        case LThan(e1, e2) => 
+            val (t1, k1) = inferExp(e1) 
+            val (t2, k2) = inferExp(e2) 
+            (MonoType(BoolTy), k1 union k2 + ((t1, MonoType(IntTy))) + ((t2, MonoType(IntTy))))
+    }
+        // sbt "testOnly sutd.compiler.simp.TestTypeInf"
         // Lab 2 Task 2.3 end        
-    } 
+ 
 
     /**
       * unification type class
@@ -176,7 +216,16 @@ object TypeInf {
     given extypesUnifiable:Unifiable[(ExType, ExType)] = new Unifiable[(ExType, ExType)] {
         def mgu(p:(ExType,ExType)):Either[String,TypeSubst] = p match {
             // Lab 2 Task 2.2
-            case (exTy1, exTy2) => Left(s"error: unable to unify ${p.toString}") // fixme
+            // mgu int, int = []
+            // mgu bool, bool []
+            // mgu a, T = [T/a]
+            // mgu T, a = [T/a]
+            case (MonoType(t1), MonoType(t2)) =>
+                if t1 == t2 then Right(TypeSubst.Empty)
+                else Left(s"error: unable to unify")
+            case (TypeVar(n), t) => Right(TypeInf.single(n,t))
+            case (t, TypeVar(n)) => Right(TypeInf.single(n,t))
+            case _ => Left(s"error: unable to unify ${p.toString}") //other types
             // Lab 2 Task 2.2 end
         }
     }
@@ -192,10 +241,27 @@ object TypeInf {
     
     given listUnifiable[A](using u:Unifiable[A])(using s:Substitutable[List[A]]):Unifiable[List[A]] = new Unifiable[List[A]] {
         def mgu(l:List[A]):Either[String, TypeSubst] = {
+            // mgu() = []
+            // mgu( (T1, T2) ∪ K ) = let Ψ1 = mgu(T1, T2)
+            //                       K' = Ψ(K)
+            //                       Ψ2 = mgu(K')
+            //                      in Ψ2 o Ψ1
+
             l match {
-                // Lab 2 Task 2.2
-                case _ => Left("TODO") // fixme
-                // Lab 2 Task 2.2 end
+                case Nil => Right(TypeSubst.Empty)
+                case first :: rest =>
+                    u.mgu(first) match {
+
+                        case Left(err) => Left(err) // uni fail
+                        case Right(psi1) =>
+                            val rest1 = s.applySubst(psi1)(rest)
+                            mgu(rest1) match {
+                                case Left(err2) => Left(err2)
+                                case Right(psi2) => Right(TypeInf.compose(psi2, psi1))
+                            }
+                    }
+            // Lab 2 Task 2.2 end
+            // sbt compile "testOnly sutd.compiler.simp.TestTypeInf -- -z unification" 
             }
         }
     }
@@ -237,6 +303,5 @@ object TypeInf {
             }
         }
     }
-
 
 }
